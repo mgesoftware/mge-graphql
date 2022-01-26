@@ -65,7 +65,8 @@ Create `mutations.py` to create your first mutation
 ```python
 from mge_graphql.mutations.base import BaseMutation
 from mge_graphql.exceptions import ValidationError
-from types import AccountErrorCode
+from enums import AccountErrorCode
+from types import AccountError
 import graphene
 
 class AccountRegister(BaseMutation):
@@ -238,4 +239,4 @@ mutation {
 ## Documentation
 
 Documentation and links to additional resources are available at
-https://mge-graphql.readthedocs.io/en/latest/
+https://mge-graphql.readthedocs.io/
