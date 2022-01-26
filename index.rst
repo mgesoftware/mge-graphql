@@ -259,7 +259,7 @@ Documentation
 Documentation and links to additional resources are available at
 https://mge-graphql.readthedocs.io/
 
-.. |MGE-GraphQL Logo| image:: https://mgedev.com/images/mge_logo-white.webp
+.. |MGE-GraphQL Logo| image:: https://mgedev.com/images/mge_logo.webp
 .. |PyPI version| image:: https://badge.fury.io/py/mge-graphql.svg
    :target: https://pypi.org/project/mge-graphql/
 .. |Documentation Status| image:: https://readthedocs.org/projects/mge-graphql/badge/?version=latest
