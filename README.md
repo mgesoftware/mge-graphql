@@ -48,12 +48,24 @@ import error_codes as account_error_codes
 # Create Graphene Enum
 AccountErrorCode = graphene.Enum.from_enum(account_error_codes.AccountErrorCode)
 ```
+
+Create `types.py` to create your custom error graphql object type
+```python
+from mge_graphql.types.common import Error
+from enums import AccountErrorCode
+
+class AccountError(Error):
+    # Custom fields
+    # Support for error_code
+    code = AccountErrorCode(description="The error code.", required=True)
+```
+
 Create `mutations.py` to create your first mutation
 
 ```python
 from mge_graphql.mutations.base import BaseMutation
 from mge_graphql.exceptions import ValidationError
-from error_codes import AccountErrorCode
+from types import AccountErrorCode
 import graphene
 
 class AccountRegister(BaseMutation):
@@ -67,6 +79,7 @@ class AccountRegister(BaseMutation):
 
     class Meta:
         description = "Register a new account."
+        # Set our custom AccountError class
         error_type_class = AccountError
 
     @classmethod
@@ -112,7 +125,7 @@ class AccountRegister(BaseMutation):
 
         return AccountRegister(
             username=cleaned_username, 
-            password=password
+            password=cleaned_password
         )
 ```
 
@@ -225,4 +238,4 @@ mutation {
 ## Documentation
 
 Documentation and links to additional resources are available at
-https://pypi.org/project/mge-graphql/
+https://github.com/mgesoftware/mge-graphql
