@@ -74,7 +74,8 @@ Create ``mutations.py`` to create your first mutation
 
    from mge_graphql.mutations.base import BaseMutation
    from mge_graphql.exceptions import ValidationError
-   from types import AccountErrorCode
+   from enums import AccountErrorCode
+   from types import AccountError
    import graphene
 
    class AccountRegister(BaseMutation):
@@ -256,9 +257,9 @@ Documentation
 -------------
 
 Documentation and links to additional resources are available at
-https://mge-graphql.readthedocs.io/en/latest/
+https://mge-graphql.readthedocs.io/
 
-.. |MGE-GraphQL Logo| image:: https://mgedev.com/images/mge_logo.webp
+.. |MGE-GraphQL Logo| image:: https://mgedev.com/images/mge_logo-white.webp
 .. |PyPI version| image:: https://badge.fury.io/py/mge-graphql.svg
    :target: https://pypi.org/project/mge-graphql/
 .. |Documentation Status| image:: https://readthedocs.org/projects/mge-graphql/badge/?version=latest
