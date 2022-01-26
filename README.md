@@ -1,4 +1,4 @@
-# ![MGE-GraphQL Logo](https://mgedev.com/images/mge_logo.webp) 
+# ![MGE-GraphQL Logo](https://mgedev.com/images/mge_logo-white.webp) 
 # [MGE-GraphQL](https://pypi.org/project/mge-graphql/) [![PyPI version](https://badge.fury.io/py/mge-graphql.svg)](https://pypi.org/project/mge-graphql/) [![Documentation Status](https://readthedocs.org/projects/mge-graphql/badge/?version=latest)](https://mge-graphql.readthedocs.io/en/latest/?badge=latest)
 
 ## Introduction
