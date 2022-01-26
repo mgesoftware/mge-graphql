@@ -1,5 +1,5 @@
 # ![MGE-GraphQL Logo](https://mgedev.com/images/mge_logo.webp) 
-# [MGE-GraphQL](https://pypi.org/project/mge-graphql/) [![PyPI version](https://badge.fury.io/py/mge-graphql.svg)](https://pypi.org/project/mge-graphql/)
+# [MGE-GraphQL](https://pypi.org/project/mge-graphql/) [![PyPI version](https://badge.fury.io/py/mge-graphql.svg)](https://pypi.org/project/mge-graphql/) [![Documentation Status](https://readthedocs.org/projects/mge-graphql/badge/?version=latest)](https://mge-graphql.readthedocs.io/en/latest/?badge=latest)
 
 ## Introduction
 
@@ -238,4 +238,4 @@ mutation {
 ## Documentation
 
 Documentation and links to additional resources are available at
-https://github.com/mgesoftware/mge-graphql
+https://mge-graphql.readthedocs.io/en/latest/
