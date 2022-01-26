@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     
 setup(
     name='mge_graphql',
-    version='1.0.1',
+    version='1.1.0',
     license='BSD 3-Clause "New" or "Revised"',
     author="Alexandru Plesoiu",
     author_email='alexandru@mgesoftware.com',
@@ -14,10 +14,16 @@ setup(
     long_description_content_type="text/markdown",
     packages=find_packages(exclude=["examples*"]),
     url='https://github.com/mgesoftware/mge-graphql',
-    keywords='api graphene mongodb flask graphql mge_graphql rest relay',
+    keywords='api graphene mongodb flask graphql mge_graphql mge-graphql rest relay mgesoftware mge',
     install_requires=[
           'graphene',
       ],
+    project_urls={
+        "Bug Tracker": "https://github.com/mgesoftware/mge-graphql/issues",
+        "Documentation": "hhttps://mge-graphql.readthedocs.io/en/latest/",
+        "Source": "https://github.com/mgesoftware/mge-graphql",
+        "Tracker": "https://github.com/mgesoftware/mge-graphql/issues",
+    },
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",
