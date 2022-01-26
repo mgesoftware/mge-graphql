@@ -18,9 +18,8 @@ setup(
     install_requires=[
           'graphene',
       ],
-    project_urls={
-        "Bug Tracker": "https://github.com/mgesoftware/mge-graphql/issues",
-        "Documentation": "hhttps://mge-graphql.readthedocs.io/en/latest/",
+    project_urls= {
+        "Documentation": "https://mge-graphql.readthedocs.io/en/latest/",
         "Source": "https://github.com/mgesoftware/mge-graphql",
         "Tracker": "https://github.com/mgesoftware/mge-graphql/issues",
     },
